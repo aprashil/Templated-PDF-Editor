@@ -27,6 +27,11 @@ python index.py {templatePath} {valuesPath}
 ```bash
 python index.py template.pdf values.json
 ```
+
+## Limitations
+- The renderer only supports single page pdf files as of now.
+- Only json files are accepted as value inputs as of now.
+
 ## Contributing
 Pull requests are welcome.
 
