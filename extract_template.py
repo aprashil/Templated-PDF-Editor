@@ -8,6 +8,9 @@ from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfparser import PDFParser
 
 def extract_template(path):
+    """
+    Extracts the template from the provided template document and returns it.
+    """
     output_string = StringIO()
     with open('template.pdf', 'rb') as in_file:
         parser = PDFParser(in_file)
