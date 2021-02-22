@@ -1,0 +1,7 @@
+#python
+__pycache__/
+*.py[cod]
+
+#project specific
+.vscode
+output/
