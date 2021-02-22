@@ -20,6 +20,7 @@ pip install fpdf
 ```bash
 python index.py {templatePath} {valuesPath}
 ```
+- The rendered pdf file would be in the newly created `output` folder.
 - Feel free to delete the already existing `template.pdf` and `values.json` files.
 
 ## Test
